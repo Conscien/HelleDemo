@@ -6,3 +6,6 @@
 /release/
 ffmpegEncoder/cmake-build-debug/
 ffmpegEncoder/cmake-build-release/
+serviceModuleDllSo/cmake-build-debug/
+serviceModuleDllSo/cmake-build-release/
+serviceModuleDllSo/.idea/

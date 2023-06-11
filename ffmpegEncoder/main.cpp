@@ -285,7 +285,8 @@ int main() {
                       in_height, frame->data, frame->linesize);
     }
 
-    frame->pts = frame_cnt++; // 必须，否则会有警告，输出视频码率极低，马赛克严重
+    frame->pts =
+        frame_cnt++; // 必须，否则会有警告，输出视频码率极低，马赛克严重
 
     encode(frame_cnt - 1, encoder_ctx, frame, pkt, out_file);
 
