@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.25)
 project(ffmpegEncoder)
 
+# depend head file and lib
 include_directories(/opt/homebrew/include)
 link_directories(/opt/homebrew/lib)
 
