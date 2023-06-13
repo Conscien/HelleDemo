@@ -18,7 +18,7 @@
 #include <vector>
 #include <zmq.h>
 
-namespace HobotADAS {
+namespace CONSCIEN {
 
 #define SEND_QUEUE_SIZE 2
 #define SEND_BUF_SIZE (2 * 1024 * 1024)
@@ -452,4 +452,4 @@ void NetworkSender::ResetDataSender() {
     }
   }
 }
-} // end of namespace HobotADAS
+} // end of namespace CONSCIEN

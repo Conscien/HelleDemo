@@ -20,7 +20,7 @@
 #include <string>
 #include <vector>
 
-namespace HobotADAS {
+namespace CONSCIEN {
 class NetworkReceiver {
 public:
   enum class ZmqMode { REQREP = 0, PUSHPULL = 1, PUBSUB = 2 };
@@ -68,6 +68,6 @@ private:
   typedef std::list<std::shared_ptr<uint8_t>> CacheList;
   std::map<std::string, CacheList> frame_cache_map_;
 };
-} // end of namespace HobotADAS
+} // end of namespace CONSCIEN
 
 #endif // ZMQTEST_ZMQ_RECEIVER_H

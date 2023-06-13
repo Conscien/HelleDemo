@@ -13,7 +13,7 @@
 #include <iostream>
 #include <thread>
 
-using namespace HobotADAS;
+using namespace CONSCIEN;
 
 std::unique_ptr<NetworkReceiver> network_receiver_ =
     std::make_unique<NetworkReceiver>();

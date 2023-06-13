@@ -16,7 +16,7 @@
 #include <string>
 #include <zmq.h>
 
-namespace HobotADAS {
+namespace CONSCIEN {
 #define RECV_QUEUE_SIZE 2
 #define RECV_BUF_SIZE (2 * 1024 * 1024)
 
@@ -247,4 +247,4 @@ bool NetworkReceiver::HasCacheFrame() {
     return false;
   }
 }
-} // end of namespace HobotADAS
+} // end of namespace CONSCIEN

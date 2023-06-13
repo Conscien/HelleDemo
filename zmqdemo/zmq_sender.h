@@ -15,7 +15,7 @@
 #include <string>
 #include <zmq.h>
 
-namespace HobotADAS {
+namespace CONSCIEN {
 
 class NetworkSender {
 public:
@@ -80,6 +80,6 @@ private:
   bool full_data_mode_;
   std::vector<int> camera_en_;
 };
-} // namespace HobotADAS
+} // namespace CONSCIEN
 
 #endif // ZMQTEST_ZMQ_SENDER_H
