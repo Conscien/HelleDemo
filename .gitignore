@@ -9,3 +9,5 @@ ffmpegEncoder/cmake-build-release/
 serviceModuleDllSo/cmake-build-debug/
 serviceModuleDllSo/cmake-build-release/
 serviceModuleDllSo/.idea/
+zmqdemo/.idea/
+zmqdemo/cmake-build-debug/

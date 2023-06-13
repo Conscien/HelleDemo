@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 格式化
-dirs_arrays="ffmpegEncoder serviceModuleDllSo"
+dirs_arrays="ffmpegEncoder serviceModuleDllSo zmqdemo"
 files_arrays="*.h *.hpp *.c *.cpp *.cc"
 for i in $dirs_arrays; do
   for j in $files_arrays; do
